@@ -12,7 +12,7 @@
         "upgrade"
     ],
     "require": {
-        "silverstripe/cms": "4.*",
+        "silverstripe/cms": "^4.0 || ^5.0",
         "symbiote/silverstripe-grouped-cms-menu": "*",
         "undefinedoffset/sortablegridfield": "*"
     },
