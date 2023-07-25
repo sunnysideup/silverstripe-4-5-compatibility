@@ -1,0 +1,8 @@
+---
+Name: silverstripe-4-5-compatibility
+Only:
+  envvarset: 'SS_MAJOR_VERSION_IS_4'
+---
+SilverStripe\ORM\DataList:
+  extensions:
+    - Sunnysideup\Silverstripe4To5Compatibility\Extensions\DataListExtension

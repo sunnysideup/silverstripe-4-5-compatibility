@@ -1,0 +1,33 @@
+---
+Name: silverstripe-4-5-compatibility-custom
+---
+
+SilverStripe\UserForms\Model\UserDefinedForm:
+    icon: 'themes/foo-bar-theme/images/tree-icons/UserDefinedForm.png'
+
+SilverStripe\Taxonomy\MyFooBarAdmin:
+    menu_title: FooBar
+
+SilverStripe\Admin\LeftAndMain:
+
+    cms_border_color: '#333333'
+
+    cms_background: '#111111'
+    cms_drawer_background: '#666666'
+    cms_active_background: '#0071c4' #'#008aab'
+
+    cms_color: '#999999'
+    cms_hover_color: '#CCCCCC'
+
+    cms_drawer_color: '#AAAAAA'
+    cms_active_color: '#EEEEEE'
+
+    cms_icon_color: '#999999'
+
+    menu_groups:
+      Content:
+        priority: -10
+        items:
+          - SilverStripe-CMS-Controllers-CMSPagesController
+          - SilverStripe-AssetAdmin-Controller-AssetAdmin
+          - SilverStripe-SiteConfig-SiteConfigLeftAndMain
