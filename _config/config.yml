@@ -1,7 +1,7 @@
 ---
 Name: silverstripe-4-5-compatibility
 Only:
-  envvarset: 'SS_MAJOR_VERSION_IS_4'
+  classexists: 'SilverStripe\Control\Email\SwiftMailer'
 ---
 SilverStripe\ORM\DataList:
   extensions:
