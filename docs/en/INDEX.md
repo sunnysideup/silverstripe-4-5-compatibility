@@ -8,3 +8,7 @@ If required, you can add the following to your `.env` file:
 OR
 
 `SS_MAJOR_VERSION_IS_5=true`
+
+# Email issue
+
+see: https://github.com/sunnysideup/silverstripe-test-email/blob/master/_config/config.yml

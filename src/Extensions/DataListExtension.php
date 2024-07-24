@@ -3,7 +3,6 @@
 namespace Sunnysideup\Silverstripe4To5Compatibility\Extensions;
 
 use SilverStripe\Core\Extension;
-use SilverStripe\ORM\DataList;
 
 // set SS_MAJOR_VERSION_IS_4 to 4 in .env file.
 

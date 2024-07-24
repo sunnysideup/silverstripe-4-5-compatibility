@@ -2,7 +2,15 @@
 Name: silverstripe-4-5-compatibility-custom
 ---
 
+
+
 # Email fix for SS5
+# also see: https://github.com/sunnysideup/silverstripe-test-email/blob/master/_config/config.yml
+---
+Only:
+  envvarset: 'SS_HOSTED_WITH_SITEHOST'
+After: 'mailer'
+---
 SilverStripe\Core\Injector\Injector:
   Symfony\Component\Mailer\Transport\TransportInterface:
     constructor:
