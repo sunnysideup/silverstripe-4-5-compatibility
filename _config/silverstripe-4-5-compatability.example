@@ -1,3 +1,9 @@
 ---
 Name: silverstripe-4-5-compatibility-custom
 ---
+
+# Email fix for SS5
+SilverStripe\Core\Injector\Injector:
+  Symfony\Component\Mailer\Transport\TransportInterface:
+    constructor:
+      dsn: 'sendmail://default?command=/usr/sbin/sendmail%20-oi%20-t'
