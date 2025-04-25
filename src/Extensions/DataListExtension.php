@@ -9,7 +9,7 @@ use SilverStripe\Core\Extension;
 /**
  * for SS4.0
  *
- * @property \SilverStripe\ORM\DataList|\Sunnysideup\Silverstripe4To5Compatibility\Extensions\DataListExtension $owner
+ * @property DataListExtension $owner
  */
 class DataListExtension extends Extension
 {
