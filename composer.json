@@ -8,11 +8,12 @@
         "Silverstripe",
         "Silverstripe 4.0",
         "Silverstripe 5.0",
+        "Silverstripe 6.0 NOT!",
         "compatibility",
         "upgrade"
     ],
     "require": {
-        "silverstripe/cms": "^4.0 || ^5.0"
+        "silverstripe/cms": "^6.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
