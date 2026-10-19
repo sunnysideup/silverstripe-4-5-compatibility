@@ -15,6 +15,7 @@ class DataListExtension extends Extension
 {
     public function orderBy($sortString)
     {
-        return $this->owner->sort($sortString);
+        $owner = $this->getOwner();
+        return $owner->sort($sortString);
     }
 }
